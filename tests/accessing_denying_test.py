@@ -41,8 +41,8 @@ def test_for_denying_dashboard(application,client):
 def test_song_denying_upload_file(application,client):
     """ setup database user and delete """
     with application.test_client() as client:
-        with open(config.Config.BASE_DIR + '/../tests/' + "sample_music.csv", 'rb') as file:
-            response = client.post('/songs/upload', data='sample_music.csv', follow_redirects=True)
+        with open(config.Config.BASE_DIR + '/../tests/' + "music_test.csv", 'rb') as file:
+            response = client.post('/songs/upload', data='music_test.csv', follow_redirects=True)
 
     assert not response.status_code == 404
 
