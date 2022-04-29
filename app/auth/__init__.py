@@ -7,16 +7,21 @@ from app.auth.forms import login_form, register_form, profile_form, security_for
 from app.db import db
 from app.db.models import User
 
+import logging
+
 auth = Blueprint('auth', __name__, template_folder='templates')
 
 
 @auth.route('/register', methods=['POST', 'GET'])
 def register():
+    log1 = logging.getLogger("uploadCsv")
+    log1.info("register")
     if current_user.is_authenticated:
         return redirect(url_for('auth.dashboard'))
     form = register_form()
     if form.validate_on_submit():
         user = User.query.filter_by(email=form.email.data).first()
+        log1.info("register if")
         if user is None:
             user = User(email=form.email.data, password=generate_password_hash(form.password.data))
             db.session.add(user)
@@ -34,15 +39,20 @@ def register():
 
 @auth.route('/login', methods=['POST', 'GET'])
 def login():
+    log1 = logging.getLogger("uploadCsv")
     form = login_form()
     if current_user.is_authenticated:
+        log1.info("is_authenticated")
         return redirect(url_for('auth.dashboard'))
     if form.validate_on_submit():
+        log1.info("validate on submit")
         user = User.query.filter_by(email=form.email.data).first()
         if user is None or not user.check_password(form.password.data):
+            log1.info("user's password is nor correct")
             flash('Invalid username or password')
             return redirect(url_for('auth.login'))
         else:
+            log1.info("user is authenticated in else")
             user.authenticated = True
             db.session.add(user)
             db.session.commit()
@@ -50,6 +60,7 @@ def login():
             flash("Welcome", 'success')
             return redirect(url_for('auth.dashboard'))
     return render_template('login.html', form=form)
+
 
 @auth.route("/logout")
 @login_required
