@@ -1,6 +1,5 @@
 from datetime import datetime
 
-from sqlalchemy import Integer, ForeignKey
 from sqlalchemy.orm import relationship
 from werkzeug.security import check_password_hash, generate_password_hash
 from app.db import db
@@ -12,12 +11,16 @@ class Song(db.Model,SerializerMixin):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(300), nullable=True, unique=False)
     artist = db.Column(db.String(300), nullable=True, unique=False)
+    year = db.Column(db.String(300), nullable=True, unique=False)
+    genre = db.Column(db.String(300), nullable=True, unique=False)
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'))
     user = relationship("User", back_populates="songs", uselist=False)
 
-    def __init__(self, title, artist):
+    def __init__(self, title, artist, year, genre):
         self.title = title
         self.artist = artist
+        self.year = year
+        self.genre = genre
 
 class Location(db.Model, SerializerMixin):
     __tablename__ = 'locations'
