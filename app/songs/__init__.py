@@ -2,6 +2,7 @@ import csv
 import logging
 import os
 
+
 from flask import Blueprint, render_template, abort, url_for,current_app
 from flask_login import current_user, login_required
 from jinja2 import TemplateNotFound
@@ -32,6 +33,8 @@ def songs_upload():
     form = csv_upload()
     if form.validate_on_submit():
         log = logging.getLogger("myApp")
+        log1 = logging.getLogger("uploadCsv")
+        log1.info("UPLOADED A NEW FILE")
 
         filename = secure_filename(form.file.data.filename)
         filepath = os.path.join(current_app.config['UPLOAD_FOLDER'], filename)
@@ -41,7 +44,7 @@ def songs_upload():
         with open(filepath) as file:
             csv_file = csv.DictReader(file)
             for row in csv_file:
-                list_of_songs.append(Song(row['Name'],row['Artist']))
+                list_of_songs.append(Song(row['Name'],row['Artist'],row['Year'],row['Genre']))
 
         current_user.songs = list_of_songs
         db.session.commit()
