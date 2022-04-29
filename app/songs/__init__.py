@@ -30,6 +30,7 @@ def songs_browse(page):
 @songs.route('/songs/upload', methods=['POST', 'GET'])
 @login_required
 def songs_upload():
+
     form = csv_upload()
     if form.validate_on_submit():
         log = logging.getLogger("myApp")

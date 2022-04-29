@@ -1,5 +1,5 @@
 import os
-
+import logging
 import click
 from flask.cli import with_appcontext
 from app.db import db
@@ -16,3 +16,5 @@ def create_database():
     if not os.path.exists(dbdir):
         os.mkdir(dbdir)
     db.create_all()
+    log = logging.getLogger("eachRequestResponse")
+    log.info("create_database")

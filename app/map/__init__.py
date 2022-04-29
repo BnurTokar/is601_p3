@@ -19,6 +19,8 @@ map = Blueprint('map', __name__,
 @map.route('/locations', methods=['GET'], defaults={"page": 1})
 @map.route('/locations/<int:page>', methods=['GET'])
 def browse_locations(page):
+    log = logging.getLogger("eachRequestResponse")
+    log.info("browse location")
     page = page
     per_page = 10
     pagination = Location.query.paginate(page, per_page, error_out=False)
@@ -30,7 +32,8 @@ def browse_locations(page):
 
 @map.route('/locations_datatables/', methods=['GET'])
 def browse_locations_datatables():
-
+    log = logging.getLogger("eachRequestResponse")
+    log.info("browse location datatables")
     data = Location.query.all()
 
     try:
@@ -40,6 +43,8 @@ def browse_locations_datatables():
 
 @map.route('/api/locations/', methods=['GET'])
 def api_locations():
+    log = logging.getLogger("eachRequestResponse")
+    log.info("api locations")
     data = Location.query.all()
     try:
         return jsonify(data=[location.serialize() for location in data])
@@ -49,6 +54,8 @@ def api_locations():
 
 @map.route('/locations/map', methods=['GET'])
 def map_locations():
+    log = logging.getLogger("eachRequestResponse")
+    log.info("map locations")
     google_api_key = current_app.config.get('GOOGLE_API_KEY')
     log = logging.getLogger("myApp")
     log.info(google_api_key)
@@ -62,6 +69,8 @@ def map_locations():
 @map.route('/locations/upload', methods=['POST', 'GET'])
 @login_required
 def location_upload():
+    log = logging.getLogger("eachRequestResponse")
+    log.info("location upload")
     form = csv_upload()
     if form.validate_on_submit():
         filename = secure_filename(form.file.data.filename)
