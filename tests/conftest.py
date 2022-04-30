@@ -25,8 +25,8 @@ def application():
         yield application
         db.session.remove()
         #drops the database tables after the test runs
-        #db.drop_all()
-
+        db.drop_all()
+"""
 @pytest.fixture()
 def add_user(application):
     with application.app_context():
@@ -35,7 +35,7 @@ def add_user(application):
         db.session.add(user)
         db.session.commit()
 
-
+"""
 
 
 @pytest.fixture()

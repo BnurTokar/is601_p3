@@ -1,0 +1,7 @@
+INFO : Before app request method: GET , route: / , [2022-04-30 03:48:09,421] , request address: 172.23.0.1
+INFO : opened home page method: GET , route: / , [2022-04-30 03:48:09,424] , request address: 172.23.0.1
+INFO : opened welcome page method: GET , route: /welcome , [2022-04-30 03:48:11,150] , request address: 172.23.0.1
+INFO : opened about page method: GET , route: /about , [2022-04-30 03:48:11,613] , request address: 172.23.0.1
+INFO : map locations method: GET , route: /locations/map , [2022-04-30 03:48:11,996] , request address: 172.23.0.1
+INFO : api locations method: GET , route: /api/locations/ , [2022-04-30 03:48:12,234] , request address: 172.23.0.1
+INFO : user login  method: GET , route: /login , [2022-04-30 03:48:13,569] , request address: 172.23.0.1

@@ -1,0 +1,37 @@
+2022-04-29 19:18:15,830 [INFO] uploadCsv: validate on submit
+2022-04-29 19:18:15,834 [INFO] uploadCsv: user's password is nor correct
+2022-04-29 19:18:16,126 [INFO] uploadCsv: validate on submit
+2022-04-29 19:18:16,134 [INFO] uploadCsv: user's password is nor correct
+2022-04-29 19:18:16,777 [INFO] uploadCsv: register
+2022-04-29 19:18:17,895 [INFO] uploadCsv: validate on submit
+2022-04-29 19:18:17,901 [INFO] uploadCsv: user's password is nor correct
+2022-04-29 19:18:18,151 [INFO] uploadCsv: register
+2022-04-29 19:18:18,269 [INFO] uploadCsv: register
+2022-04-29 19:20:35,311 [INFO] uploadCsv: register
+2022-04-29 19:20:48,702 [INFO] uploadCsv: register
+2022-04-29 19:20:57,973 [INFO] uploadCsv: register
+2022-04-29 19:20:57,998 [INFO] uploadCsv: register if
+2022-04-29 19:20:58,264 [INFO] uploadCsv: is_authenticated
+2022-04-29 19:21:10,245 [INFO] uploadCsv: UPLOADED A NEW FILE
+2022-04-29 19:27:50,818 [INFO] uploadCsv: validate on submit
+2022-04-29 19:27:50,822 [INFO] uploadCsv: user's password is nor correct
+2022-04-29 19:27:51,110 [INFO] uploadCsv: validate on submit
+2022-04-29 19:27:51,118 [INFO] uploadCsv: user's password is nor correct
+2022-04-29 19:27:51,884 [INFO] uploadCsv: register
+2022-04-29 19:27:53,154 [INFO] uploadCsv: validate on submit
+2022-04-29 19:27:53,159 [INFO] uploadCsv: user's password is nor correct
+2022-04-29 19:27:53,431 [INFO] uploadCsv: register
+2022-04-29 19:27:53,555 [INFO] uploadCsv: register
+2022-04-29 19:37:01,877 [INFO] uploadCsv: register
+2022-04-29 19:37:03,349 [INFO] uploadCsv: register
+2022-04-29 19:37:03,460 [INFO] uploadCsv: register
+2022-04-29 19:53:32,656 [INFO] uploadCsv: register
+2022-04-29 19:53:34,092 [INFO] uploadCsv: register
+2022-04-29 19:53:34,222 [INFO] uploadCsv: register
+2022-04-29 21:49:44,828 [INFO] uploadCsv: register
+2022-04-29 21:49:46,664 [INFO] uploadCsv: register
+2022-04-29 21:49:46,785 [INFO] uploadCsv: register
+2022-04-29 21:50:44,237 [INFO] uploadCsv: register
+2022-04-29 21:50:45,889 [INFO] uploadCsv: register
+2022-04-29 21:50:45,999 [INFO] uploadCsv: register
+2022-04-30 03:48:13,108 [INFO] uploadCsv: register
