@@ -1,0 +1,116 @@
+2022-04-29 19:12:29,913 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:12:29] "GET /welcome HTTP/1.1" 200 -
+2022-04-29 19:12:31,337 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:12:31] "GET /about HTTP/1.1" 200 -
+2022-04-29 19:12:31,828 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:12:31] "GET /locations/map HTTP/1.1" 200 -
+2022-04-29 19:12:32,118 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:12:32] "[32mGET /api/locations HTTP/1.1[0m" 308 -
+2022-04-29 19:12:32,149 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:12:32] "GET /api/locations/ HTTP/1.1" 200 -
+2022-04-29 19:15:48,554 [INFO] werkzeug:  * Detected change in '/home/myuser/app/logging_config/__init__.py', reloading
+2022-04-29 19:16:08,708 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:16:08] "GET /register HTTP/1.1" 200 -
+2022-04-29 19:16:09,427 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:16:09] "GET /login HTTP/1.1" 200 -
+2022-04-29 19:17:48,095 [INFO] werkzeug:  * Detected change in '/home/myuser/app/songs/__init__.py', reloading
+2022-04-29 19:20:35,495 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:20:35] "GET /register HTTP/1.1" 200 -
+2022-04-29 19:20:48,723 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:20:48] "POST /register HTTP/1.1" 200 -
+2022-04-29 19:20:58,238 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:20:58] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-04-29 19:20:58,270 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:20:58] "[32mGET /login HTTP/1.1[0m" 302 -
+2022-04-29 19:20:58,307 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:20:58] "GET /dashboard HTTP/1.1" 200 -
+2022-04-29 19:21:02,663 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:21:02] "GET /songs HTTP/1.1" 200 -
+2022-04-29 19:21:03,775 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:21:03] "GET /songs/upload HTTP/1.1" 200 -
+2022-04-29 19:21:12,053 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:21:12] "[32mPOST /songs/upload HTTP/1.1[0m" 302 -
+2022-04-29 19:21:12,122 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:21:12] "GET /songs HTTP/1.1" 200 -
+2022-04-29 19:22:44,447 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/song_upload_file_test.py', reloading
+2022-04-29 19:22:45,430 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:22:45] "GET /welcome HTTP/1.1" 200 -
+2022-04-29 19:22:46,132 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:22:46] "GET /locations/map HTTP/1.1" 200 -
+2022-04-29 19:22:46,173 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:22:46] "[32mGET /api/locations HTTP/1.1[0m" 308 -
+2022-04-29 19:22:46,200 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:22:46] "GET /api/locations/ HTTP/1.1" 200 -
+2022-04-29 19:22:46,685 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:22:46] "GET /dashboard HTTP/1.1" 200 -
+2022-04-29 19:23:08,415 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:23:08] "GET /locations/map HTTP/1.1" 200 -
+2022-04-29 19:23:08,448 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:23:08] "[32mGET /api/locations HTTP/1.1[0m" 308 -
+2022-04-29 19:23:08,515 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:23:08] "GET /api/locations/ HTTP/1.1" 200 -
+2022-04-29 19:23:08,965 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:23:08] "GET /about HTTP/1.1" 200 -
+2022-04-29 19:23:09,374 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:23:09] "GET /welcome HTTP/1.1" 200 -
+2022-04-29 19:26:43,747 [INFO] werkzeug:  * Detected change in '/home/myuser/app/logging_config/__init__.py', reloading
+2022-04-29 19:37:16,319 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:37:16] "GET /about HTTP/1.1" 200 -
+2022-04-29 19:37:16,499 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:37:16] "GET /locations/map HTTP/1.1" 200 -
+2022-04-29 19:37:16,541 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:37:16] "[32mGET /api/locations HTTP/1.1[0m" 308 -
+2022-04-29 19:37:16,565 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:37:16] "GET /api/locations/ HTTP/1.1" 200 -
+2022-04-29 19:37:16,908 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:37:16] "GET /dashboard HTTP/1.1" 200 -
+2022-04-29 19:37:24,195 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:37:24] "GET /about HTTP/1.1" 200 -
+2022-04-29 19:37:24,781 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:37:24] "GET /locations/map HTTP/1.1" 200 -
+2022-04-29 19:37:24,807 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:37:24] "[32mGET /api/locations HTTP/1.1[0m" 308 -
+2022-04-29 19:37:24,877 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:37:24] "GET /api/locations/ HTTP/1.1" 200 -
+2022-04-29 19:37:29,735 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:37:29] "GET /welcome HTTP/1.1" 200 -
+2022-04-29 19:37:56,059 [INFO] werkzeug:  * Detected change in '/home/myuser/app/simple_pages/__init__.py', reloading
+2022-04-29 19:37:57,286 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:37:57] "GET /about HTTP/1.1" 200 -
+2022-04-29 19:37:57,460 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:37:57] "GET /welcome HTTP/1.1" 200 -
+2022-04-29 19:37:57,959 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:37:57] "GET /locations/map HTTP/1.1" 200 -
+2022-04-29 19:37:57,996 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:37:57] "[32mGET /api/locations HTTP/1.1[0m" 308 -
+2022-04-29 19:37:58,034 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:37:58] "GET /api/locations/ HTTP/1.1" 200 -
+2022-04-29 19:37:58,287 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:37:58] "GET /about HTTP/1.1" 200 -
+2022-04-29 19:38:11,744 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:38:11] "GET /users HTTP/1.1" 200 -
+2022-04-29 19:38:11,765 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:38:11] "GET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1" 200 -
+2022-04-29 19:39:41,016 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-29 19:39:42,691 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:39:42] "GET /users HTTP/1.1" 200 -
+2022-04-29 19:39:42,698 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:39:42] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-04-29 19:39:42,707 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:39:42] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-04-29 19:41:12,907 [INFO] werkzeug:  * Detected change in '/home/myuser/app/map/__init__.py', reloading
+2022-04-29 19:41:15,068 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:41:15] "GET /locations HTTP/1.1" 200 -
+2022-04-29 19:41:16,174 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:41:16] "GET /about HTTP/1.1" 200 -
+2022-04-29 19:41:16,724 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:41:16] "GET /welcome HTTP/1.1" 200 -
+2022-04-29 19:41:17,547 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:41:17] "GET /locations/map HTTP/1.1" 200 -
+2022-04-29 19:41:17,568 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:41:17] "[32mGET /api/locations HTTP/1.1[0m" 308 -
+2022-04-29 19:41:17,603 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:41:17] "GET /api/locations/ HTTP/1.1" 200 -
+2022-04-29 19:41:32,126 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:41:32] "GET /users HTTP/1.1" 200 -
+2022-04-29 19:41:32,139 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:41:32] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-04-29 19:41:32,151 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:41:32] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-04-29 19:41:36,838 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:41:36] "GET /users/1 HTTP/1.1" 200 -
+2022-04-29 19:41:36,844 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:41:36] "GET /users/1 HTTP/1.1" 200 -
+2022-04-29 19:41:36,847 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:41:36] "GET /users/1 HTTP/1.1" 200 -
+2022-04-29 19:41:44,141 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:41:44] "GET /users HTTP/1.1" 200 -
+2022-04-29 19:41:44,149 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:41:44] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-04-29 19:41:44,160 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:41:44] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-04-29 19:41:45,467 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:41:45] "GET /users/1/edit HTTP/1.1" 200 -
+2022-04-29 19:44:15,687 [INFO] werkzeug:  * Detected change in '/home/myuser/app/logging_config/__init__.py', reloading
+2022-04-29 19:45:53,359 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:45:53] "GET /profile HTTP/1.1" 200 -
+2022-04-29 19:45:54,045 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:45:54] "GET /welcome HTTP/1.1" 200 -
+2022-04-29 19:45:54,520 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:45:54] "GET /locations/map HTTP/1.1" 200 -
+2022-04-29 19:45:54,639 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:45:54] "[32mGET /api/locations HTTP/1.1[0m" 308 -
+2022-04-29 19:45:54,668 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:45:54] "GET /api/locations/ HTTP/1.1" 200 -
+2022-04-29 19:46:13,733 [INFO] werkzeug:  * Detected change in '/home/myuser/app/logging_config/__init__.py', reloading
+2022-04-29 19:47:30,160 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:47:30] "GET /about HTTP/1.1" 200 -
+2022-04-29 19:47:30,364 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:47:30] "GET /welcome HTTP/1.1" 200 -
+2022-04-29 19:47:59,805 [INFO] werkzeug:  * Detected change in '/home/myuser/app/logging_config/__init__.py', reloading
+2022-04-29 19:48:38,173 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:48:38] "GET /locations/map HTTP/1.1" 200 -
+2022-04-29 19:48:38,201 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:48:38] "[32mGET /api/locations HTTP/1.1[0m" 308 -
+2022-04-29 19:48:38,231 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:48:38] "GET /api/locations/ HTTP/1.1" 200 -
+2022-04-29 19:48:38,406 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:48:38] "GET /about HTTP/1.1" 200 -
+2022-04-29 19:49:11,845 [INFO] werkzeug:  * Detected change in '/home/myuser/app/logging_config/__init__.py', reloading
+2022-04-29 19:50:51,268 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:50:51] "GET /dashboard HTTP/1.1" 200 -
+2022-04-29 19:50:51,530 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:50:51] "GET /locations/map HTTP/1.1" 200 -
+2022-04-29 19:50:51,555 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:50:51] "[32mGET /api/locations HTTP/1.1[0m" 308 -
+2022-04-29 19:50:51,607 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:50:51] "GET /api/locations/ HTTP/1.1" 200 -
+2022-04-29 19:50:51,911 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:50:51] "GET /welcome HTTP/1.1" 200 -
+2022-04-29 19:51:32,040 [INFO] werkzeug:  * Detected change in '/home/myuser/app/logging_config/__init__.py', reloading
+2022-04-29 19:51:43,151 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:51:43] "GET /about HTTP/1.1" 200 -
+2022-04-29 19:51:43,495 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:51:43] "GET /locations/map HTTP/1.1" 200 -
+2022-04-29 19:51:43,523 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:51:43] "[32mGET /api/locations HTTP/1.1[0m" 308 -
+2022-04-29 19:51:43,551 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:51:43] "GET /api/locations/ HTTP/1.1" 200 -
+2022-04-29 19:51:43,853 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:51:43] "GET /dashboard HTTP/1.1" 200 -
+2022-04-29 19:52:04,056 [INFO] werkzeug:  * Detected change in '/home/myuser/app/logging_config/__init__.py', reloading
+2022-04-29 19:52:05,181 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:52:05] "GET /welcome HTTP/1.1" 200 -
+2022-04-29 19:52:05,187 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:52:05] "GET /about HTTP/1.1" 200 -
+2022-04-29 19:52:40,800 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:52:40] "GET /about HTTP/1.1" 200 -
+2022-04-29 19:52:40,941 [INFO] werkzeug:  * Detected change in '/home/myuser/app/logging_config/__init__.py', reloading
+2022-04-29 19:52:42,007 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:52:42] "GET /locations/map HTTP/1.1" 200 -
+2022-04-29 19:52:42,036 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:52:42] "GET /dashboard HTTP/1.1" 200 -
+2022-04-29 19:53:18,653 [INFO] werkzeug:  * Detected change in '/home/myuser/app/logging_config/__init__.py', reloading
+2022-04-29 19:53:19,810 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:53:19] "GET /welcome HTTP/1.1" 200 -
+2022-04-29 19:53:19,815 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:53:19] "GET /locations/map HTTP/1.1" 200 -
+2022-04-29 19:53:19,882 [INFO] werkzeug: 172.23.0.1 - - [29/Apr/2022 19:53:19] "GET /about HTTP/1.1" 200 -
+2022-04-29 20:02:13,930 [INFO] werkzeug:  * Detected change in '/home/myuser/app/db/__init__.py', reloading
+2022-04-30 03:48:09,597 [INFO] werkzeug: 172.23.0.1 - - [30/Apr/2022 03:48:09] "GET / HTTP/1.1" 200 -
+2022-04-30 03:48:10,197 [INFO] werkzeug: 172.23.0.1 - - [30/Apr/2022 03:48:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-04-30 03:48:11,169 [INFO] werkzeug: 172.23.0.1 - - [30/Apr/2022 03:48:11] "GET /welcome HTTP/1.1" 200 -
+2022-04-30 03:48:11,635 [INFO] werkzeug: 172.23.0.1 - - [30/Apr/2022 03:48:11] "GET /about HTTP/1.1" 200 -
+2022-04-30 03:48:12,024 [INFO] werkzeug: 172.23.0.1 - - [30/Apr/2022 03:48:12] "GET /locations/map HTTP/1.1" 200 -
+2022-04-30 03:48:12,264 [INFO] werkzeug: 172.23.0.1 - - [30/Apr/2022 03:48:12] "GET /api/locations/ HTTP/1.1" 200 -
+2022-04-30 03:48:13,122 [INFO] werkzeug: 172.23.0.1 - - [30/Apr/2022 03:48:13] "GET /register HTTP/1.1" 200 -
+2022-04-30 03:48:13,589 [INFO] werkzeug: 172.23.0.1 - - [30/Apr/2022 03:48:13] "GET /login HTTP/1.1" 200 -
