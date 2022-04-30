@@ -5,3 +5,19 @@ INFO : opened about page method: GET , route: /about , [2022-04-30 03:48:11,613]
 INFO : map locations method: GET , route: /locations/map , [2022-04-30 03:48:11,996] , request address: 172.23.0.1
 INFO : api locations method: GET , route: /api/locations/ , [2022-04-30 03:48:12,234] , request address: 172.23.0.1
 INFO : user login  method: GET , route: /login , [2022-04-30 03:48:13,569] , request address: 172.23.0.1
+INFO : Before app request method: GET , route: / , [2022-04-30 03:58:25,277] , request address: 172.23.0.1
+INFO : opened home page method: GET , route: / , [2022-04-30 03:58:25,284] , request address: 172.23.0.1
+INFO : user login  method: GET , route: /login , [2022-04-30 03:58:39,890] , request address: 172.23.0.1
+INFO : user login  method: POST , route: /login , [2022-04-30 03:58:50,964] , request address: 172.23.0.1
+INFO : user validate on submit method: POST , route: /login , [2022-04-30 03:58:50,976] , request address: 172.23.0.1
+INFO : user is authenticated method: POST , route: /login , [2022-04-30 03:58:51,173] , request address: 172.23.0.1
+INFO : user dashboard method: GET , route: /dashboard , [2022-04-30 03:58:51,250] , request address: 172.23.0.1
+INFO : map locations method: GET , route: /locations/map , [2022-04-30 03:58:53,718] , request address: 172.23.0.1
+INFO : api locations method: GET , route: /api/locations/ , [2022-04-30 03:58:53,804] , request address: 172.23.0.1
+INFO : browse location method: GET , route: /locations , [2022-04-30 03:58:59,487] , request address: 172.23.0.1
+INFO : location upload method: GET , route: /locations/upload , [2022-04-30 03:59:01,202] , request address: 172.23.0.1
+INFO : location upload method: POST , route: /locations/upload , [2022-04-30 03:59:23,622] , request address: 172.23.0.1
+INFO : browse location method: GET , route: /locations , [2022-04-30 03:59:23,725] , request address: 172.23.0.1
+INFO : map locations method: GET , route: /locations/map , [2022-04-30 03:59:25,354] , request address: 172.23.0.1
+INFO : api locations method: GET , route: /api/locations/ , [2022-04-30 03:59:25,422] , request address: 172.23.0.1
+INFO : browse location method: GET , route: /locations , [2022-04-30 03:59:30,879] , request address: 172.23.0.1
